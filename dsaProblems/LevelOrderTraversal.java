@@ -3,18 +3,6 @@ package dsaProblems;
 import java.util.*;
 public class LevelOrderTraversal {
 	
-	// Node of a binary tree
-	static class Node {
-		int data;
-		Node left, right;
-
-		Node(int data) {
-			this.data = data;
-			left = null;
-			right = null;
-		}
-	}
-	
 	static ArrayList<Integer> traversal(Node root){
 		ArrayList<Integer> result = new ArrayList<>();
 		Queue<Node> q = new LinkedList<>();

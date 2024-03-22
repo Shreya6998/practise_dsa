@@ -6,18 +6,6 @@ public class SumLongestPathBinaryTree {
 	
 	int maxSum, maxLen;
 	
-	// Node of a binary tree
-	static class Node {
-		int data;
-		Node left, right;
-		
-		Node(int data){
-			this.data = data;
-			left = null;
-			right = null;
-		}
-	}
-	
 	int sumOfLongRootToLeafPathUtil(Node root) {
 		if(root==null) {
 			return 0;

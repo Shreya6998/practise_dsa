@@ -1,19 +1,7 @@
 package dsaProblems;
 
 import java.util.*;
-public class ZigZagTraversal {
-	
-	// Node of a binary tree
-	static class Node {
-		int data;
-		Node left, right;
-
-		Node(int data) {
-			this.data = data;
-			left = null;
-			right = null;
-		}
-	}
+public class ZigZagTraversal{
 	
 	static ArrayList<Integer> traversal(Node root){
 		//Setting this variable to determine which direction to move in.
