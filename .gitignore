@@ -1,0 +1,11 @@
+# Java
+*.class
+
+# IntelliJ
+.idea/
+*.iml
+out/
+.DS_Store
+
+# build output
+classes/

@@ -41,8 +41,6 @@ public class ZigZagTraversal {
         boolean leftToRight = true;
         while(!queue.isEmpty()) {
             int size = queue.size();
-            //Check why exact index input does not work for ArrayList
-            //List<Integer> level = new ArrayList<>(size);
             Integer[] level = new Integer[size];
             // Process current level
             for(int i=0; i<size;i++) {
@@ -64,6 +62,36 @@ public class ZigZagTraversal {
             leftToRight = !leftToRight;
         }
         return output;
+    }
+
+    static ArrayList<Integer> traversal(TreeNode root){
+        //Setting this variable to determine which direction to move in.
+        //If the value is 0, move in left
+        //If the value is 1, move in right
+        int direction = 0;
+        ArrayList<Integer> result = new ArrayList<>();
+        ArrayList<Integer> sublevel = new ArrayList<>();
+        Deque<TreeNode> dq = new LinkedList<>();
+        dq.add(root);
+        while(!dq.isEmpty()){
+            int size = dq.size();
+            for(int i=0; i<size;i++) {
+                TreeNode temp = dq.poll();
+                sublevel.add(temp.val);
+                if(temp.left != null)
+                    dq.add(temp.left);
+                if(temp.right != null)
+                    dq.add(temp.right);
+            }
+            if(direction == 1) {
+                Collections.reverse(sublevel);
+            }
+            result.addAll(sublevel);
+            sublevel.clear();
+            direction = direction^1;
+        }
+
+        return result;
     }
 
 }
