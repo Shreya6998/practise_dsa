@@ -1,5 +1,3 @@
-package dsaProblems;
-
 public class MatrixDiagonalTraversal {
 
 	public static void main(String[] args) {

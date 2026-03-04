@@ -1,5 +1,3 @@
-package dsaProblems;
-
 import java.util.*;
 public class UnionFindAlgorithm {
 	int[] parent,size;

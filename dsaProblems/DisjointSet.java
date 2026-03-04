@@ -1,5 +1,3 @@
-package dsaProblems;
-
 public class DisjointSet {
 	int[] parent,rank;
 	int n;

@@ -1,5 +1,3 @@
-package dsaProblems;
-
 //Java implementation to find the sum of nodes
 //on the longest path from root to leaf node
 public class SumLongestPathBinaryTree {

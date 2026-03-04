@@ -1,5 +1,3 @@
-package dsaProblems;
-
 public class GridDFS {
 	static int m,n;
 

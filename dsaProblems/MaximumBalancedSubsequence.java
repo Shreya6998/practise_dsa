@@ -1,5 +1,3 @@
-package dsaProblems;
-
 public class MaximumBalancedSubsequence {
 
 	public static void main(String[] args) {

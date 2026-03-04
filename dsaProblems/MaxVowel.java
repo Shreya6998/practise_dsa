@@ -1,5 +1,3 @@
-package dsaProblems;
-
 import java.util.Scanner;
 
 public class MaxVowel {

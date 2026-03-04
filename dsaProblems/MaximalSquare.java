@@ -1,5 +1,3 @@
-package dsaProblems;
-
 public class MaximalSquare {
 
 	public static void main(String[] args) {

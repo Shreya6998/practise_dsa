@@ -1,4 +1,3 @@
-package dsaProblems;
 //{ Driver Code Starts
 //Initial Template for Java
 

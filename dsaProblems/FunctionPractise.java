@@ -1,5 +1,3 @@
-package dsaProblems;
-
 public class FunctionPractise {
 
 	// swap() doesn't swap i and j

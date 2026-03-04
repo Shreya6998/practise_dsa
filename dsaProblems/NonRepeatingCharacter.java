@@ -1,7 +1,4 @@
-package dsaProblems;
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
@@ -18,6 +15,7 @@ public class NonRepeatingCharacter {
 		
             
 			String st = "geeksgeeksfor";
+            System.out.println(nonRepeatingChar(st));
 			String stNew = "geeksgeeksfor";
 			System.out.println(st==stNew);
 			String st2 = new String("geeksgeeksfor");
@@ -59,18 +57,18 @@ public class NonRepeatingCharacter {
 
 	}
 	
-	// Function to find the first non-repeating character in a string.
-	static char nonrepeatingCharacter(String S) {
-		// Your code here
-		for (int i = 0; i < S.length(); i++) {
-			char ch = S.charAt(i);
-//            System.out.println(ch);
-			if (S.chars().filter(letter -> letter == ch).count() == 1)
-				return ch;
-		}
-		return '$';
-
-	}
+//	// Function to find the first non-repeating character in a string.
+//	static char nonrepeatingCharacter(String S) {
+//		// Your code here
+//		for (int i = 0; i < S.length(); i++) {
+//			char ch = S.charAt(i);
+////            System.out.println(ch);
+//			if (S.chars().filter(letter -> letter == ch).count() == 1)
+//				return ch;
+//		}
+//		return '$';
+//
+//	}
 	
 	static int search(int A[], int l, int h, int key) {
 		// l: The starting index
@@ -124,6 +122,19 @@ public class NonRepeatingCharacter {
 		return count;
 
 	}
+
+    static char nonRepeatingChar(String s) {
+        // code here
+        char[] counter= new char[26];
+        for(char c:s.toCharArray()){
+            counter[c-'a']++;
+        }
+        for(char c:s.toCharArray()){
+            if(counter[c-'a']==1)
+                return c;
+        }
+        return '$';
+    }
         
 }
 

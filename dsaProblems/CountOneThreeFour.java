@@ -1,5 +1,3 @@
-package dsaProblems;
-
 public class CountOneThreeFour {
 
 	public static void main(String[] args) {

@@ -1,4 +1,3 @@
-package dsaProblems;
 public class LargestSubsquare {
 
 	public static void main(String[] args) {

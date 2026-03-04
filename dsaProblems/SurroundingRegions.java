@@ -1,5 +1,3 @@
-package dsaProblems;
-
 public class SurroundingRegions {
     int m,n;
     int[][] viz;
