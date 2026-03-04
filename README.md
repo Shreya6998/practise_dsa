@@ -33,6 +33,9 @@ Problems in **`dsaProblems`** are older implementations that I plan to **re-solv
 * Subsets I
 * Subsets II
 
+### Binary Search
+* Search Rotated Array
+
 ### Dynamic Programming
 
 * Climbing Stairs
@@ -88,6 +91,7 @@ Problems in **`dsaProblems`** are older implementations that I plan to **re-solv
 
 * Longest Consecutive Sequence
 * Two Sum
+* Count Distinct Element for every row
 
 ## Linked List
 
@@ -119,6 +123,7 @@ Problems in **`dsaProblems`** are older implementations that I plan to **re-solv
 * Path Sum II
 * Binary Tree Right Side View
 * ZigZag Traversal
+* Lowest Common Ancestor for Binary Tree
 
 ---
 
