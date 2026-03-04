@@ -1,3 +1,5 @@
+package Graphs;
+
 public class SurroundingRegions {
     int m,n;
     int[][] viz;

@@ -1,3 +1,5 @@
+package DP;
+
 class MaximumSubarray {
     public static void main(String[] args) {
         int[] arr = {-2,-4};

@@ -1,3 +1,5 @@
+package Trees;
+
 //Do not delete this class
 //Its used in all tree related problems
 public class Node {

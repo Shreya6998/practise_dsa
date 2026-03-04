@@ -1,3 +1,5 @@
+package Math;
+
 public class BinaryAddition {
     public static void main(String[] args) {
         String result = addBinary("1101","111");

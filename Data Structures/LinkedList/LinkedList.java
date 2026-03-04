@@ -14,7 +14,7 @@ class LinkedList {
 
     public LinkedList(int[] arr) {
         Node current = null;
-//        Node tail = null; // circular
+//        Trees.Node tail = null; // circular
         for (int i = arr.length - 1; i >= 0; i--) {
             Node node = new Node(arr[i]);
 //            if (current == null) {tail = node;} // circular

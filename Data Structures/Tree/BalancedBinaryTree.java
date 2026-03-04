@@ -41,7 +41,7 @@ public class BalancedBinaryTree {
         System.out.println("Test2 Result: " + isBalanced(root2));
 
 
-        // ✅ Test Case 3 (Single Node)
+        // ✅ Test Case 3 (Single Trees.Node)
         TreeNode root3 = new TreeNode(1);
         System.out.println("Test3 Result: " + isBalanced(root3));
     }
