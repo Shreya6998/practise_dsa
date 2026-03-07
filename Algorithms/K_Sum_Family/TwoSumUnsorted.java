@@ -1,9 +1,9 @@
-package Hashing;
+package K_Sum_Family;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class TwoSum {
+public class TwoSumUnsorted {
 
     public static void main(String[] args) {
         int[] nums = {3, 2, 7, 3, 11, 15};

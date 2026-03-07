@@ -1,4 +1,4 @@
-package DP;
+package DynamicProgramming;
 
 public class LargestSubsquare {
 
