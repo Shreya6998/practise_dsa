@@ -1,6 +1,8 @@
 # DSA Practice Repository
 
-This repository contains my implementations of **Data Structures and Algorithms** problems in Java.
+This repository contains my implementations of **Data Structures and Algorithms** problems in Java. 
+
+Track progress [here](https://docs.google.com/spreadsheets/d/1iFls6R9LaHwdPSqtUn_6yQpl00H10z4GpesYU3l4FX8/edit?usp=sharing).
 
 The goal of this repository is:
 
