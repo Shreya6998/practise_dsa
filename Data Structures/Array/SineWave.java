@@ -15,6 +15,18 @@ public class SineWave {
 
         System.out.println("Sine Wave Traversal:");
         System.out.println(Arrays.toString(result));
+
+        arr = new int[][] {
+                {1, 2, 3},
+                {4, 5, 6},
+                {7, 8, 9},
+                {10,11,12}
+        };
+
+        result = wavePrint(arr, 4, 3);
+
+        System.out.println("Sine Wave Traversal:");
+        System.out.println(Arrays.toString(result));
     }
 
     private static int[] wavePrint(int[][] arr, int nRows, int mCols) {
